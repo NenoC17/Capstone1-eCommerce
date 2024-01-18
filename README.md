@@ -12,3 +12,5 @@ Here is the wireframes for my eCommerce Website
 ![home](https://github.com/NenoC17/Capstone1-eCommerce/assets/150434928/105f2463-3702-4c55-a99f-1a7f8d1d9064)
 
 ![about](https://github.com/NenoC17/Capstone1-eCommerce/assets/150434928/9d3b04ef-a45d-41f5-a1c7-2a05f59b68b6)
+
+![products](https://github.com/NenoC17/Capstone1-eCommerce/assets/150434928/e0f413ef-1e83-47d0-9f58-268606398bb7)
