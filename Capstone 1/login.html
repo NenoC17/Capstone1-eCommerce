@@ -9,47 +9,37 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Comic+Neue&display=swap" rel="stylesheet">
-        <title>Document</title>
+        <title>Otaku Oasis</title>
         <link rel="stylesheet" href="css/login.css">
     </head>
 
     <body>
         <header>
             <nav>
-                <ul class="nav justify-content-end">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="products.html">Products</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="checkout.html">Checkout</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="login.html">Login/Register</a>
-                    </li>
-                </ul>
+                <div class="navbar">
+                    <a href="index.html">
+                        <img src="images/OTAKU.png" alt="otaku-oasis" class="header-img">
+                    </a>
+                    <a href="about.html">About</a>
+                    <a href="products.html">Products</a>
+                    <a href="checkout.html">Checkout</a>
+                    <a href="login.html" class="right">Log Out</a>
+                </div>
             </nav>
-            </div>
         </header>
         <section>
+            <!-- Left-side image -->
             <div class="row m-5 no-gutters shadow-lg">
-                <div class="col-md-6 d-none d-md-block">
-                    <img src="images/pngtree-gray-network-placeholder-png-image_3416659.jpg" alt="model"
-                        class="img-fluid" style="min-height:100%;">
+                <div class="col-md-6 d-none d-md-block" style="background-color: rgba(226, 47, 24, 0.502);">
+                    <img src="images/levi.png" alt="model" class="img-fluid" style="min-height: 100%;">
                 </div>
-
+                <!-- Right-side form -->
                 <div class="col-md-6 bg-white p-5" style="display: flex;
                     align-items: center;
                     justify-content: center;
                     text-align: center; margin-bottom: 0; flex-direction: column;">
-                    <h3 class="pb-3">Log In</h3>
-                    <p
-                        style="text-align: center; margin-top: 0; font-family: Josefin Sans, sans-serif; font-weight: 500;">
+                    <h1 class="pb-3" style="font-family: 'Bangers', system-ui; text-align: center;">Otaku Oasis</h1>
+                    <p style="text-align: center; margin-top: 0; font-family: 'Comic Neue', cursive;">
                         Log in to your Otaku Oasis Account</p>
                     <div class="form-style">
                         <form>
@@ -61,7 +51,7 @@
                                     id="exampleInputPassword1">
                             </div>
                             <div class="d-flex align-items-center justify-content-between"
-                                style="margin-top: -15px; margin-bottom: 20px;">
+                                style="margin-top: -1px; margin-bottom: 20px;">
                                 <div style="font-family: Josefin Sans, sans-serif;"><a href="#">Forget Password?</a>
                                 </div>
                             </div>
@@ -71,22 +61,20 @@
                                 </button>
                             </div>
                         </form>
-                        <div class="sideline">OR</div>
+                        <div class="sideline" style="font-size: 20px;">OR</div>
                         <div>
                             <button type="submit" class="btn btn-primary w-100 font-weight-bold mt-2">
                                 <i class="fa fa-facebook" aria-hidden="true"></i>Login With Facebook</button>
                         </div>
                         <div class="pt-4 text-center" style="margin-bottom: 10px;">
-                            <p style="font-family: Josefin Sans, sans-serif;">Don't have an account? <a
-                                    href="register.html">Sign
-                                    Up</a></p>
+                            <p style="font-family: 'Comic Neue', cursive; font-size: 24px;">Don't have an account? <a
+                                    href="register.html">Sign Up</a></p>
                         </div>
                     </div>
                 </div>
-
-
         </section>
-        <footer style="text-align: center;">
+        <!-- Footer section -->
+        <footer>
             &copy; Otaku Oasis 2023 | Shaeneno Craig
         </footer>
     </body>
