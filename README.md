@@ -1,4 +1,4 @@
-![home](https://github.com/NenoC17/Capstone1-eCommerce/assets/150434928/a5f14965-6041-42c2-bb41-aaa017ae23e5)# Capstone1-eCommerce
+# Capstone1-eCommerce
 
 This is the very first capstone I got to work on individually. This capstone I named Otaku Oasis. It's an manga eCommerce store where customers
 can buy mangas as well as light novels and webtoons. I have made some changes compared to when I have first started working on this project awhile
