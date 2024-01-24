@@ -18,6 +18,6 @@ Here is the wireframes for my eCommerce Website
 Here are the screenshots of my eCommerce site
 ![home](https://github.com/NenoC17/Capstone1-eCommerce/assets/150434928/c6796ab7-ef9f-4fc4-b1c3-9975309745ca)
 
-![login](https://github.com/NenoC17/Capstone1-eCommerce/assets/150434928/fa0eab03-1e16-4fea-9778-fcf11fed3fd3)
+![login](https://github.com/NenoC17/Capstone1-eCommerce/assets/150434928/74ce54da-d77c-4edc-a5b5-3f680906f6fc)
 
-![register](https://github.com/NenoC17/Capstone1-eCommerce/assets/150434928/edfeae0e-3f18-4510-9b00-6927626766cb)
+![register](https://github.com/NenoC17/Capstone1-eCommerce/assets/150434928/b40ea498-807d-46f0-8934-ff3acb543221)
