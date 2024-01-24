@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  margin: 0;
+}
+
+/* Increase the font size of the heading */
+h1 {
+  font-size: 84px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #cc6825;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 25px;
+  font-family: 'Comic Neue', cursive;
+  font-size: 28px;
+  text-decoration: none;
+}
+
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #d68046;
+  color: black;
+}
+
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: rgb(250, 233, 220);
+  padding: 20px;
+}
+
+.about-us, .products, .home, h5 {
+  text-align: center;
+}
+
+.header-img {
+  height: 100px;
+  width: 100px;
+  padding: 5px;
+}
+
+/* Anime-Smashup */
+img {
+  width: 100%;
+  padding: 10px;
+}
+
+p, ul, li{
+  font-family: 'Comic Neue', cursive;
+  font-weight: 600;
+  font-size: 32px;
+}
+
+/* Footer */
+footer {
+  padding: 20px;
+  text-align: center;
+  font-family: 'Comic Neue', cursive;
+  font-size: 24px;
+  background: #cc6825;
+  color: #ffffff;
+}
+
+
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
